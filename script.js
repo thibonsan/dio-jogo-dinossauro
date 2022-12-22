@@ -1,5 +1,5 @@
 const dino = document.querySelector('.dino');
-const background = document.querySelector('.backgground');
+const background = document.querySelector('.background');
 let isJumping = false;
 let position = 0;
 
@@ -40,7 +40,7 @@ function createCactus() {
     let randomTime = Math.random() * 6000;
 
     cactus.classList.add('cactus');
-    cactus.style.left = cactusPosition + 'px';
+    cactus.style.left = 1000 + 'px';
     background.appendChild(cactus);
 
     let leftInterval = setInterval(() => {
